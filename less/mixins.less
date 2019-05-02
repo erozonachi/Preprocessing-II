@@ -1,1 +1,13 @@
 // Mixins in here
+.register-button(@width, @bg-color, @text-color) {
+  width: @width;
+  font-size: 2rem;
+  padding: .5em 0;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: .5em;
+  background-color: @bg-color;
+  color: @text-color;
+  cursor: pointer;
+}

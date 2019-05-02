@@ -269,3 +269,15 @@ header nav .nav-items a:hover {
   width: 30%;
   margin-bottom: 30px;
 }
+.home .content-pick .destination .btn {
+  width: 82%;
+  font-size: 2rem;
+  padding: 0.5em 0;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: 0.5em;
+  background-color: #17A2B8;
+  color: #FFFFFF;
+  cursor: pointer;
+}
