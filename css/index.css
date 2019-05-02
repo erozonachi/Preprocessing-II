@@ -168,6 +168,33 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+header {
+  border-bottom: 2px dashed #C0C0C0;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+header nav .title {
+  display: flex;
+  justify-content: flex-start;
+}
+header nav .nav-items {
+  display: flex;
+  width: 70%;
+  justify-content: flex-end;
+}
+header nav .nav-items a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  margin: 0 1em;
+  color: #212529;
+}
+header nav .nav-items a:hover {
+  color: #C0C0C0;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
