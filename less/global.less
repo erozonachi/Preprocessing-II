@@ -43,4 +43,21 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+
+  @media @mobile {
+    width: 96%;
+    margin: 0 2%;
+  }
+}
+
+@keyframes slidein {
+  from {
+    margin-left: -100%;
+    width: -300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
